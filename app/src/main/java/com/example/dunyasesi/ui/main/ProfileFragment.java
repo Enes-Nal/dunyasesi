@@ -77,8 +77,6 @@ public class ProfileFragment extends Fragment {
         // TODO(homework) using intent to navigate to settings activity
         Intent i = new Intent(this.getActivity(), ProfileSettingsActivity.class);
         startActivity(i);
-
-
     }
 
     private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
