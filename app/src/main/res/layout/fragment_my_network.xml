@@ -8,21 +8,22 @@
     android:orientation="vertical"
     tools:context=".ui.main.MyNetworkFragment">
 
-    <TextView
-        android:id="@+id/userNetworkTitle"
+    <EditText
+        android:id="@+id/userNewPassword"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        app:autoSizeTextType="uniform"
-        android:text="@string/my_network_title"
+        android:hint="@string/network_search"
+        android:textSize="20dp"
         android:layout_marginLeft="10dp"/>
 
     <LinearLayout
-        android:id="@+id/networkList"
+        android:id="@+id/searchResultList"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9"
         android:orientation="vertical" />
+
 
     <Button
         android:id="@+id/newRequestsButton"

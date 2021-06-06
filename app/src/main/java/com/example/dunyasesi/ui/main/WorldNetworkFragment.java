@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.dunya_sesi.R;
+import com.example.dunyasesi.R;
 
 public class WorldNetworkFragment extends Fragment {
 
